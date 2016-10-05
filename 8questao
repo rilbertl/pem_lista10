@@ -1,0 +1,28 @@
+git pull
+		remote: Counting objects: 3, done.
+		remote: Compressing objects: 100% (1/1), done.
+		remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+		Unpacking objects: 100% (3/3), done.
+		From https://github.com/rilbertl/pem_lista10
+		 * branch            HEAD       -> FETCH_HEAD
+		Updating 7c8f2a9..d139b36
+		Fast-forward
+		 testar | 1 +
+		 1 file changed, 1 insertion(+)
+		 create mode 100644 testar
+
+	git log --graph --abbrev-commit --color --oneline
+	       	* fbbe3da arquivo texto github
+		* d139b36 Testar a lista 10, exercicio 3, questao 7
+		* 7c8f2a9 primeiro envio do github
+		*   0092915 Merge branch 'novo'
+		|\  
+		| * 62f5ca6 Mais e menos commits
+		* | c546f77 Commit do Master
+		* | 686af53 Commit do Master
+		|/  
+		* 1ffe04b T35t4r 0 br4nch
+		* c11989f Novo Branch
+		* a8d274d Questao12
+		* ae6fe8f Mandei 4 arquivos
+		* d64a958 Nova versão
